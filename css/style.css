@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, input{
+    font-family: 'Rubik', sans-serif;
+}
+
+.wrapper{
+    background-image: linear-gradient(60deg, #96deda 0%, #50c9c3 100%);
+    min-height: 100vh;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr min(800px, calc(100% - 32px)) 1fr;
+}
+.wrapper > * {
+    grid-column: 2;
+  }
+.container{
+    background-color: #fff;
+    border-radius: 8px;
+    grid-column: 2;
+    padding: 35px 30px;
+    box-shadow: 0 5px 16px rgba(0,0,0,0.3);
+}
+.container__title{
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+}
+.container__content--word{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 1rem;
+    margin-bottom: 25px;
+    user-select: none;
+    word-break: break-all;
+}
+.container__content--details{
+    margin-bottom: 25px;
+}
+.container__content--details p{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.container__content--details--hint span{
+    font-weight: 600;
+}
+.container__content input{
+    width: 100%;
+    padding: 16px 10px;
+    outline: none;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    border: 1px solid #bfbfbf;
+    margin-bottom: 20px;
+}
+.container__content input:focus{
+    box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.5);
+}
+.container__content input:placeholder-shown{
+    color: #bfbfbf;
+}
+.container__content--buttons{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.container__content--buttons--refresh{
+    background-color: #bfbfbf;
+    margin-right: 10px;
+}
+.container__content--buttons--check{
+    background-color: #50c9c3;
+    margin-left: 10px;
+}
+.btn{
+    flex: 1;
+    padding: 10px 0;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 4px;
+    border: 1px solid #bfbfbf;
+    outline: none;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    color: #fff;
+}
+.btn:hover{
+    letter-spacing: 1.5px;
+}
