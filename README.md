@@ -8,7 +8,7 @@ This is a Word Scramble Game made from the video of [CodingNepal](https://www.yo
 - SweetAlert
 
 ### Deploy
-https://rpa-works.com/
+https://mariomass.com.ar/scramble/
 
 ### Author: Mario Massonnat - [MarucoMass](https://github.com/MarucoMass)
 
