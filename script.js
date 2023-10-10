@@ -9,7 +9,7 @@ let correctWord, timer, maxTime;
 
 const loadData = async () => {
     try {
-        const data = await fetch('/js/words.json');
+        const data = await fetch('words.json');
         const words = await data.json();
         return words;
     } catch (error) {
