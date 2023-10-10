@@ -5,7 +5,7 @@ This is a Word Scramble Game made from the video of [CodingNepal](https://www.yo
 - HTML.
 - Vanilla CSS.
 - Javascript.
-- SweetAlert
+- SweetAlert2
 
 ### Deploy
 https://mariomass.com.ar/scramble/
